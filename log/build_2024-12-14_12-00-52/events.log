@@ -1,0 +1,408 @@
+[0.000000] (-) TimerEvent: {}
+[0.000264] (pointcloud_to_laserscan) JobQueued: {'identifier': 'pointcloud_to_laserscan', 'dependencies': OrderedDict()}
+[0.000360] (pointcloud_to_laserscan) JobStarted: {'identifier': 'pointcloud_to_laserscan'}
+[0.013445] (pointcloud_to_laserscan) JobProgress: {'identifier': 'pointcloud_to_laserscan', 'progress': 'cmake'}
+[0.014041] (pointcloud_to_laserscan) Command: {'cmd': ['/usr/bin/cmake', '/home/biswash/pointcloud_to_laserscan', '-DCMAKE_INSTALL_PREFIX=/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan'], 'cwd': '/home/biswash/pointcloud_to_laserscan/build/pointcloud_to_laserscan', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'biswash'), ('LC_TIME', 'bho_NP'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/biswash/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/biswash/ws_livox/install/fast_lio/lib:/home/biswash/ws_livox/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/biswash'), ('OLDPWD', '/home/biswash/pointcloud_to_laserscan/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PS1', '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\\e]0;test\\a\\]'), ('LC_MONETARY', 'bho_NP'), ('SYSTEMD_EXEC_PID', '523924'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/biswash/workspace/tutorial_gpt/install:/home/biswash/ws_livox/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'biswash'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'biswash'), ('STM32_PRG_PATH', '/home/biswash/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/biswash/.cache/lm-studio/bin:/home/biswash/.cache/lm-studio/bin'), ('SESSION_MANAGER', 'local/biswash-pc:@/tmp/.ICE-unix/519402,unix/biswash-pc:/tmp/.ICE-unix/519402'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'bho_NP'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ea6a2ab3_61c0_43d1_b6b3_a338370c2d9f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'bho_NP'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5H69X2'), ('RMW_INPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.175'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/biswash/ws_livox/install/fast_lio:/home/biswash/ws_livox/install/livox_ros_driver2:/home/biswash/workspace/tutorial_gpt/install/task_1_hello_ros_py:/home/biswash/workspace/tutorial_gpt/install/task_1_hello_ros_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'bho_NP'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'bho_NP'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'bho_NP'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/biswash/pointcloud_to_laserscan/build/pointcloud_to_laserscan'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/biswash/ws_livox/install/fast_lio/local/lib/python3.10/dist-packages:/home/biswash/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/biswash/workspace/tutorial_gpt/install/task_1_hello_ros_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'bho_NP'), ('LC_PAPER', 'bho_NP'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/biswash/ws_livox/install/fast_lio:/home/biswash/ws_livox/install/livox_ros_driver2:/home/biswash/workspace/tutorial_gpt/install/task_1_hello_ros_cpp:/home/biswash/workspace/tutorial_gpt/install/task_1_hello_ros_py:/opt/ros/humble')]), 'shell': False}
+[0.099235] (-) TimerEvent: {}
+[0.139008] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199372] (-) TimerEvent: {}
+[0.247247] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.262188] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299510] (-) TimerEvent: {}
+[0.357417] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.375986] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.377423] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.378432] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.386421] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399716] (-) TimerEvent: {}
+[0.500165] (-) TimerEvent: {}
+[0.529408] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.536139] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.536383] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.536733] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.541362] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.600296] (-) TimerEvent: {}
+[0.700708] (-) TimerEvent: {}
+[0.733447] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.801248] (-) TimerEvent: {}
+[0.901809] (-) TimerEvent: {}
+[1.002224] (-) TimerEvent: {}
+[1.010267] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.017665] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.028596] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.044479] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.064933] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.102392] (-) TimerEvent: {}
+[1.120934] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.124796] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.202531] (-) TimerEvent: {}
+[1.258661] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.291393] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.302696] (-) TimerEvent: {}
+[1.344772] (pointcloud_to_laserscan) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.356869] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.403075] (-) TimerEvent: {}
+[1.465988] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.466324] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.503249] (-) TimerEvent: {}
+[1.591457] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.594035] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.603380] (-) TimerEvent: {}
+[1.703724] (-) TimerEvent: {}
+[1.804099] (-) TimerEvent: {}
+[1.861908] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.895236] (pointcloud_to_laserscan) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.895558] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/biswash/pointcloud_to_laserscan/include\n'}
+[1.895762] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.904230] (pointcloud_to_laserscan) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.904443] (-) TimerEvent: {}
+[1.904638] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.905648] (pointcloud_to_laserscan) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.908183] (pointcloud_to_laserscan) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.909721] (pointcloud_to_laserscan) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.918515] (pointcloud_to_laserscan) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.918768] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.920262] (pointcloud_to_laserscan) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.923710] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.960576] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Generating done\n'}
+[1.971538] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Build files have been written to: /home/biswash/pointcloud_to_laserscan/build/pointcloud_to_laserscan\n'}
+[1.983561] (pointcloud_to_laserscan) CommandEnded: {'returncode': 0}
+[1.986785] (pointcloud_to_laserscan) JobProgress: {'identifier': 'pointcloud_to_laserscan', 'progress': 'build'}
+[1.986865] (pointcloud_to_laserscan) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/biswash/pointcloud_to_laserscan/build/pointcloud_to_laserscan', '--', '-j12', '-l12'], 'cwd': '/home/biswash/pointcloud_to_laserscan/build/pointcloud_to_laserscan', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'biswash'), ('LC_TIME', 'bho_NP'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/biswash/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/biswash/ws_livox/install/fast_lio/lib:/home/biswash/ws_livox/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/biswash'), ('OLDPWD', '/home/biswash/pointcloud_to_laserscan/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PS1', '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\\e]0;test\\a\\]'), ('LC_MONETARY', 'bho_NP'), ('SYSTEMD_EXEC_PID', '523924'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/biswash/workspace/tutorial_gpt/install:/home/biswash/ws_livox/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'biswash'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'biswash'), ('STM32_PRG_PATH', '/home/biswash/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/biswash/.cache/lm-studio/bin:/home/biswash/.cache/lm-studio/bin'), ('SESSION_MANAGER', 'local/biswash-pc:@/tmp/.ICE-unix/519402,unix/biswash-pc:/tmp/.ICE-unix/519402'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'bho_NP'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ea6a2ab3_61c0_43d1_b6b3_a338370c2d9f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'bho_NP'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5H69X2'), ('RMW_INPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.175'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/biswash/ws_livox/install/fast_lio:/home/biswash/ws_livox/install/livox_ros_driver2:/home/biswash/workspace/tutorial_gpt/install/task_1_hello_ros_py:/home/biswash/workspace/tutorial_gpt/install/task_1_hello_ros_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'bho_NP'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'bho_NP'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'bho_NP'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/biswash/pointcloud_to_laserscan/build/pointcloud_to_laserscan'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/biswash/ws_livox/install/fast_lio/local/lib/python3.10/dist-packages:/home/biswash/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/biswash/workspace/tutorial_gpt/install/task_1_hello_ros_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'bho_NP'), ('LC_PAPER', 'bho_NP'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/biswash/ws_livox/install/fast_lio:/home/biswash/ws_livox/install/livox_ros_driver2:/home/biswash/workspace/tutorial_gpt/install/task_1_hello_ros_cpp:/home/biswash/workspace/tutorial_gpt/install/task_1_hello_ros_py:/opt/ros/humble')]), 'shell': False}
+[2.004604] (-) TimerEvent: {}
+[2.080440] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/laserscan_to_pointcloud_node.dir/rclcpp_components/node_main_laserscan_to_pointcloud_node.cpp.o\x1b[0m\n'}
+[2.080740] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/laserscan_to_pointcloud.dir/src/laserscan_to_pointcloud_node.cpp.o\x1b[0m\n'}
+[2.081023] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan_node.dir/rclcpp_components/node_main_pointcloud_to_laserscan_node.cpp.o\x1b[0m\n'}
+[2.104718] (-) TimerEvent: {}
+[2.205030] (-) TimerEvent: {}
+[2.305374] (-) TimerEvent: {}
+[2.405700] (-) TimerEvent: {}
+[2.506050] (-) TimerEvent: {}
+[2.606484] (-) TimerEvent: {}
+[2.706921] (-) TimerEvent: {}
+[2.807342] (-) TimerEvent: {}
+[2.907848] (-) TimerEvent: {}
+[3.008418] (-) TimerEvent: {}
+[3.108994] (-) TimerEvent: {}
+[3.209456] (-) TimerEvent: {}
+[3.309888] (-) TimerEvent: {}
+[3.410304] (-) TimerEvent: {}
+[3.510765] (-) TimerEvent: {}
+[3.611201] (-) TimerEvent: {}
+[3.711766] (-) TimerEvent: {}
+[3.812264] (-) TimerEvent: {}
+[3.912729] (-) TimerEvent: {}
+[4.013144] (-) TimerEvent: {}
+[4.113552] (-) TimerEvent: {}
+[4.213983] (-) TimerEvent: {}
+[4.314448] (-) TimerEvent: {}
+[4.415014] (-) TimerEvent: {}
+[4.515795] (-) TimerEvent: {}
+[4.616261] (-) TimerEvent: {}
+[4.716778] (-) TimerEvent: {}
+[4.817276] (-) TimerEvent: {}
+[4.917738] (-) TimerEvent: {}
+[5.018237] (-) TimerEvent: {}
+[5.118733] (-) TimerEvent: {}
+[5.219191] (-) TimerEvent: {}
+[5.308916] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX executable pointcloud_to_laserscan_node\x1b[0m\n'}
+[5.319377] (-) TimerEvent: {}
+[5.392436] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable laserscan_to_pointcloud_node\x1b[0m\n'}
+[5.419566] (-) TimerEvent: {}
+[5.515935] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 50%] Built target pointcloud_to_laserscan_node\n'}
+[5.519685] (-) TimerEvent: {}
+[5.579823] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 50%] Built target laserscan_to_pointcloud_node\n'}
+[5.619858] (-) TimerEvent: {}
+[5.720282] (-) TimerEvent: {}
+[5.820736] (-) TimerEvent: {}
+[5.921225] (-) TimerEvent: {}
+[6.021677] (-) TimerEvent: {}
+[6.122097] (-) TimerEvent: {}
+[6.222509] (-) TimerEvent: {}
+[6.322952] (-) TimerEvent: {}
+[6.423361] (-) TimerEvent: {}
+[6.523785] (-) TimerEvent: {}
+[6.624245] (-) TimerEvent: {}
+[6.724719] (-) TimerEvent: {}
+[6.825316] (-) TimerEvent: {}
+[6.925824] (-) TimerEvent: {}
+[7.026260] (-) TimerEvent: {}
+[7.126734] (-) TimerEvent: {}
+[7.227220] (-) TimerEvent: {}
+[7.327717] (-) TimerEvent: {}
+[7.428174] (-) TimerEvent: {}
+[7.528604] (-) TimerEvent: {}
+[7.629070] (-) TimerEvent: {}
+[7.729591] (-) TimerEvent: {}
+[7.830310] (-) TimerEvent: {}
+[7.930954] (-) TimerEvent: {}
+[8.031367] (-) TimerEvent: {}
+[8.131778] (-) TimerEvent: {}
+[8.232380] (-) TimerEvent: {}
+[8.333023] (-) TimerEvent: {}
+[8.433468] (-) TimerEvent: {}
+[8.534010] (-) TimerEvent: {}
+[8.634600] (-) TimerEvent: {}
+[8.735294] (-) TimerEvent: {}
+[8.836042] (-) TimerEvent: {}
+[8.936464] (-) TimerEvent: {}
+[9.036941] (-) TimerEvent: {}
+[9.137264] (-) TimerEvent: {}
+[9.237598] (-) TimerEvent: {}
+[9.338082] (-) TimerEvent: {}
+[9.438535] (-) TimerEvent: {}
+[9.538986] (-) TimerEvent: {}
+[9.639445] (-) TimerEvent: {}
+[9.739921] (-) TimerEvent: {}
+[9.840366] (-) TimerEvent: {}
+[9.940760] (-) TimerEvent: {}
+[10.041219] (-) TimerEvent: {}
+[10.141700] (-) TimerEvent: {}
+[10.242164] (-) TimerEvent: {}
+[10.342645] (-) TimerEvent: {}
+[10.443102] (-) TimerEvent: {}
+[10.543528] (-) TimerEvent: {}
+[10.643990] (-) TimerEvent: {}
+[10.744446] (-) TimerEvent: {}
+[10.844925] (-) TimerEvent: {}
+[10.945569] (-) TimerEvent: {}
+[11.046082] (-) TimerEvent: {}
+[11.146644] (-) TimerEvent: {}
+[11.247110] (-) TimerEvent: {}
+[11.347574] (-) TimerEvent: {}
+[11.448085] (-) TimerEvent: {}
+[11.548549] (-) TimerEvent: {}
+[11.649034] (-) TimerEvent: {}
+[11.749724] (-) TimerEvent: {}
+[11.850210] (-) TimerEvent: {}
+[11.951055] (-) TimerEvent: {}
+[12.051764] (-) TimerEvent: {}
+[12.152250] (-) TimerEvent: {}
+[12.252742] (-) TimerEvent: {}
+[12.353197] (-) TimerEvent: {}
+[12.453702] (-) TimerEvent: {}
+[12.554319] (-) TimerEvent: {}
+[12.655045] (-) TimerEvent: {}
+[12.755471] (-) TimerEvent: {}
+[12.770710] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library liblaserscan_to_pointcloud.so\x1b[0m\n'}
+[12.855684] (-) TimerEvent: {}
+[12.956180] (-) TimerEvent: {}
+[13.057135] (-) TimerEvent: {}
+[13.158576] (-) TimerEvent: {}
+[13.259442] (-) TimerEvent: {}
+[13.360155] (-) TimerEvent: {}
+[13.460809] (-) TimerEvent: {}
+[13.561370] (-) TimerEvent: {}
+[13.661885] (-) TimerEvent: {}
+[13.762349] (-) TimerEvent: {}
+[13.863124] (-) TimerEvent: {}
+[13.964106] (-) TimerEvent: {}
+[14.004066] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 60%] Built target laserscan_to_pointcloud\n'}
+[14.047391] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan.dir/src/pointcloud_to_laserscan_node.cpp.o\x1b[0m\n'}
+[14.064805] (-) TimerEvent: {}
+[14.165317] (-) TimerEvent: {}
+[14.265732] (-) TimerEvent: {}
+[14.366199] (-) TimerEvent: {}
+[14.466590] (-) TimerEvent: {}
+[14.567051] (-) TimerEvent: {}
+[14.667458] (-) TimerEvent: {}
+[14.767884] (-) TimerEvent: {}
+[14.868292] (-) TimerEvent: {}
+[14.968728] (-) TimerEvent: {}
+[15.069140] (-) TimerEvent: {}
+[15.169546] (-) TimerEvent: {}
+[15.269978] (-) TimerEvent: {}
+[15.370388] (-) TimerEvent: {}
+[15.470896] (-) TimerEvent: {}
+[15.571285] (-) TimerEvent: {}
+[15.671735] (-) TimerEvent: {}
+[15.772241] (-) TimerEvent: {}
+[15.872882] (-) TimerEvent: {}
+[15.973277] (-) TimerEvent: {}
+[16.073675] (-) TimerEvent: {}
+[16.174025] (-) TimerEvent: {}
+[16.274379] (-) TimerEvent: {}
+[16.374744] (-) TimerEvent: {}
+[16.475114] (-) TimerEvent: {}
+[16.575463] (-) TimerEvent: {}
+[16.675846] (-) TimerEvent: {}
+[16.776189] (-) TimerEvent: {}
+[16.876536] (-) TimerEvent: {}
+[16.976898] (-) TimerEvent: {}
+[17.077282] (-) TimerEvent: {}
+[17.177679] (-) TimerEvent: {}
+[17.278235] (-) TimerEvent: {}
+[17.378990] (-) TimerEvent: {}
+[17.479451] (-) TimerEvent: {}
+[17.579940] (-) TimerEvent: {}
+[17.680314] (-) TimerEvent: {}
+[17.780726] (-) TimerEvent: {}
+[17.881282] (-) TimerEvent: {}
+[17.981981] (-) TimerEvent: {}
+[18.082355] (-) TimerEvent: {}
+[18.182753] (-) TimerEvent: {}
+[18.283160] (-) TimerEvent: {}
+[18.383605] (-) TimerEvent: {}
+[18.484113] (-) TimerEvent: {}
+[18.584528] (-) TimerEvent: {}
+[18.684957] (-) TimerEvent: {}
+[18.785390] (-) TimerEvent: {}
+[18.885846] (-) TimerEvent: {}
+[18.986279] (-) TimerEvent: {}
+[19.086947] (-) TimerEvent: {}
+[19.187367] (-) TimerEvent: {}
+[19.287763] (-) TimerEvent: {}
+[19.388203] (-) TimerEvent: {}
+[19.488594] (-) TimerEvent: {}
+[19.589041] (-) TimerEvent: {}
+[19.689447] (-) TimerEvent: {}
+[19.789893] (-) TimerEvent: {}
+[19.890301] (-) TimerEvent: {}
+[19.990725] (-) TimerEvent: {}
+[20.091151] (-) TimerEvent: {}
+[20.191589] (-) TimerEvent: {}
+[20.292054] (-) TimerEvent: {}
+[20.392487] (-) TimerEvent: {}
+[20.492915] (-) TimerEvent: {}
+[20.593340] (-) TimerEvent: {}
+[20.693753] (-) TimerEvent: {}
+[20.794170] (-) TimerEvent: {}
+[20.894571] (-) TimerEvent: {}
+[20.994997] (-) TimerEvent: {}
+[21.095414] (-) TimerEvent: {}
+[21.195834] (-) TimerEvent: {}
+[21.296217] (-) TimerEvent: {}
+[21.396668] (-) TimerEvent: {}
+[21.497152] (-) TimerEvent: {}
+[21.597660] (-) TimerEvent: {}
+[21.698258] (-) TimerEvent: {}
+[21.799029] (-) TimerEvent: {}
+[21.899417] (-) TimerEvent: {}
+[21.999875] (-) TimerEvent: {}
+[22.100270] (-) TimerEvent: {}
+[22.200668] (-) TimerEvent: {}
+[22.301037] (-) TimerEvent: {}
+[22.401400] (-) TimerEvent: {}
+[22.501807] (-) TimerEvent: {}
+[22.602319] (-) TimerEvent: {}
+[22.702809] (-) TimerEvent: {}
+[22.803214] (-) TimerEvent: {}
+[22.903616] (-) TimerEvent: {}
+[23.004174] (-) TimerEvent: {}
+[23.104667] (-) TimerEvent: {}
+[23.205081] (-) TimerEvent: {}
+[23.305491] (-) TimerEvent: {}
+[23.405972] (-) TimerEvent: {}
+[23.506397] (-) TimerEvent: {}
+[23.606738] (-) TimerEvent: {}
+[23.707196] (-) TimerEvent: {}
+[23.807666] (-) TimerEvent: {}
+[23.908102] (-) TimerEvent: {}
+[24.008529] (-) TimerEvent: {}
+[24.108998] (-) TimerEvent: {}
+[24.209436] (-) TimerEvent: {}
+[24.309913] (-) TimerEvent: {}
+[24.345700] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libpointcloud_to_laserscan.so\x1b[0m\n'}
+[24.410142] (-) TimerEvent: {}
+[24.510818] (-) TimerEvent: {}
+[24.611437] (-) TimerEvent: {}
+[24.712047] (-) TimerEvent: {}
+[24.812562] (-) TimerEvent: {}
+[24.913088] (-) TimerEvent: {}
+[25.013531] (-) TimerEvent: {}
+[25.113982] (-) TimerEvent: {}
+[25.214408] (-) TimerEvent: {}
+[25.223214] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 80%] Built target pointcloud_to_laserscan\n'}
+[25.275105] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/dummy_pointcloud_publisher.dir/src/dummy_pointcloud_publisher.cpp.o\x1b[0m\n'}
+[25.314548] (-) TimerEvent: {}
+[25.414956] (-) TimerEvent: {}
+[25.515341] (-) TimerEvent: {}
+[25.615739] (-) TimerEvent: {}
+[25.716169] (-) TimerEvent: {}
+[25.816588] (-) TimerEvent: {}
+[25.917180] (-) TimerEvent: {}
+[26.017692] (-) TimerEvent: {}
+[26.118241] (-) TimerEvent: {}
+[26.218822] (-) TimerEvent: {}
+[26.319497] (-) TimerEvent: {}
+[26.419961] (-) TimerEvent: {}
+[26.520456] (-) TimerEvent: {}
+[26.620861] (-) TimerEvent: {}
+[26.721258] (-) TimerEvent: {}
+[26.821707] (-) TimerEvent: {}
+[26.922118] (-) TimerEvent: {}
+[27.022519] (-) TimerEvent: {}
+[27.122938] (-) TimerEvent: {}
+[27.223329] (-) TimerEvent: {}
+[27.323729] (-) TimerEvent: {}
+[27.424136] (-) TimerEvent: {}
+[27.524553] (-) TimerEvent: {}
+[27.624969] (-) TimerEvent: {}
+[27.725373] (-) TimerEvent: {}
+[27.825856] (-) TimerEvent: {}
+[27.926263] (-) TimerEvent: {}
+[28.026686] (-) TimerEvent: {}
+[28.127077] (-) TimerEvent: {}
+[28.227490] (-) TimerEvent: {}
+[28.327943] (-) TimerEvent: {}
+[28.428348] (-) TimerEvent: {}
+[28.528741] (-) TimerEvent: {}
+[28.629111] (-) TimerEvent: {}
+[28.729504] (-) TimerEvent: {}
+[28.829920] (-) TimerEvent: {}
+[28.930301] (-) TimerEvent: {}
+[29.030721] (-) TimerEvent: {}
+[29.131219] (-) TimerEvent: {}
+[29.231590] (-) TimerEvent: {}
+[29.256016] (pointcloud_to_laserscan) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable dummy_pointcloud_publisher\x1b[0m\n'}
+[29.331746] (-) TimerEvent: {}
+[29.432138] (-) TimerEvent: {}
+[29.532547] (-) TimerEvent: {}
+[29.547272] (pointcloud_to_laserscan) StdoutLine: {'line': b'[100%] Built target dummy_pointcloud_publisher\n'}
+[29.578608] (pointcloud_to_laserscan) CommandEnded: {'returncode': 0}
+[29.580043] (pointcloud_to_laserscan) JobProgress: {'identifier': 'pointcloud_to_laserscan', 'progress': 'install'}
+[29.591689] (pointcloud_to_laserscan) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/biswash/pointcloud_to_laserscan/build/pointcloud_to_laserscan'], 'cwd': '/home/biswash/pointcloud_to_laserscan/build/pointcloud_to_laserscan', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'biswash'), ('LC_TIME', 'bho_NP'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/biswash/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/biswash/ws_livox/install/fast_lio/lib:/home/biswash/ws_livox/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/biswash'), ('OLDPWD', '/home/biswash/pointcloud_to_laserscan/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PS1', '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\\e]0;test\\a\\]'), ('LC_MONETARY', 'bho_NP'), ('SYSTEMD_EXEC_PID', '523924'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/biswash/workspace/tutorial_gpt/install:/home/biswash/ws_livox/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'biswash'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'biswash'), ('STM32_PRG_PATH', '/home/biswash/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/biswash/.cache/lm-studio/bin:/home/biswash/.cache/lm-studio/bin'), ('SESSION_MANAGER', 'local/biswash-pc:@/tmp/.ICE-unix/519402,unix/biswash-pc:/tmp/.ICE-unix/519402'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'bho_NP'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ea6a2ab3_61c0_43d1_b6b3_a338370c2d9f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'bho_NP'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5H69X2'), ('RMW_INPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.175'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/biswash/ws_livox/install/fast_lio:/home/biswash/ws_livox/install/livox_ros_driver2:/home/biswash/workspace/tutorial_gpt/install/task_1_hello_ros_py:/home/biswash/workspace/tutorial_gpt/install/task_1_hello_ros_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'bho_NP'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'bho_NP'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'bho_NP'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/biswash/pointcloud_to_laserscan/build/pointcloud_to_laserscan'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/biswash/ws_livox/install/fast_lio/local/lib/python3.10/dist-packages:/home/biswash/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/biswash/workspace/tutorial_gpt/install/task_1_hello_ros_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'bho_NP'), ('LC_PAPER', 'bho_NP'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/biswash/ws_livox/install/fast_lio:/home/biswash/ws_livox/install/livox_ros_driver2:/home/biswash/workspace/tutorial_gpt/install/task_1_hello_ros_cpp:/home/biswash/workspace/tutorial_gpt/install/task_1_hello_ros_py:/opt/ros/humble')]), 'shell': False}
+[29.608798] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[29.609131] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/laserscan_to_pointcloud_node\n'}
+[29.609713] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Set runtime path of "/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/laserscan_to_pointcloud_node" to ""\n'}
+[29.609943] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/pointcloud_to_laserscan_node\n'}
+[29.610262] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Set runtime path of "/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/pointcloud_to_laserscan_node" to ""\n'}
+[29.610451] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/include\n'}
+[29.610595] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan\n'}
+[29.610739] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/pointcloud_to_laserscan_node.hpp\n'}
+[29.610796] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/visibility_control.h\n'}
+[29.610847] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/laserscan_to_pointcloud_node.hpp\n'}
+[29.611819] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/library_path.sh\n'}
+[29.612176] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/library_path.dsv\n'}
+[29.612328] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/lib/liblaserscan_to_pointcloud.so\n'}
+[29.621402] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Set runtime path of "/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/lib/liblaserscan_to_pointcloud.so" to ""\n'}
+[29.621652] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/lib/libpointcloud_to_laserscan.so\n'}
+[29.630090] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Set runtime path of "/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/lib/libpointcloud_to_laserscan.so" to ""\n'}
+[29.630323] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/dummy_pointcloud_publisher\n'}
+[29.631420] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Set runtime path of "/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/dummy_pointcloud_publisher" to ""\n'}
+[29.631725] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch\n'}
+[29.631855] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_pointcloud_to_laserscan_launch.py\n'}
+[29.631965] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_laserscan_to_pointcloud_launch.py\n'}
+[29.632028] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/ament_index/resource_index/package_run_dependencies/pointcloud_to_laserscan\n'}
+[29.632078] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/ament_index/resource_index/parent_prefix_path/pointcloud_to_laserscan\n'}
+[29.632148] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.sh\n'}
+[29.632603] (-) TimerEvent: {}
+[29.632887] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.dsv\n'}
+[29.633067] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.sh\n'}
+[29.633263] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.dsv\n'}
+[29.633368] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.bash\n'}
+[29.633516] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.sh\n'}
+[29.633668] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.zsh\n'}
+[29.633796] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.dsv\n'}
+[29.633930] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv\n'}
+[29.634136] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/ament_index/resource_index/packages/pointcloud_to_laserscan\n'}
+[29.634270] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/ament_index/resource_index/rclcpp_components/pointcloud_to_laserscan\n'}
+[29.634472] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[29.634641] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[29.634797] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[29.634942] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig.cmake\n'}
+[29.635047] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig-version.cmake\n'}
+[29.635159] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.xml\n'}
+[29.638075] (pointcloud_to_laserscan) CommandEnded: {'returncode': 0}
+[29.656682] (pointcloud_to_laserscan) JobEnded: {'identifier': 'pointcloud_to_laserscan', 'rc': 0}
+[29.657458] (-) EventReactorShutdown: {}

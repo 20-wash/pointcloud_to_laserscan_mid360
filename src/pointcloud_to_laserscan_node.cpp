@@ -52,6 +52,20 @@
 #include "tf2_sensor_msgs/tf2_sensor_msgs.hpp"
 #include "tf2_ros/create_timer_ros.h"
 
+// Global variables for parameters
+std::string target_frame = "";
+double transform_tolerance = 0.01;
+double min_height = std::numeric_limits<double>::min();
+double max_height = std::numeric_limits<double>::max();
+double angle_min = -M_PI;
+double angle_max = M_PI;
+double angle_increment = M_PI / 180.0;
+double scan_time = 1.0 / 30.0;
+double range_min = 0.0;
+double range_max = std::numeric_limits<double>::max();
+bool use_inf = true;
+double inf_epsilon = 1.0;
+
 namespace pointcloud_to_laserscan
 {
 
@@ -75,7 +89,10 @@ PointCloudToLaserScanNode::PointCloudToLaserScanNode(const rclcpp::NodeOptions &
   inf_epsilon_ = this->declare_parameter("inf_epsilon", 1.0);
   use_inf_ = this->declare_parameter("use_inf", true);
 
-  pub_ = this->create_publisher<sensor_msgs::msg::LaserScan>("scan", rclcpp::SensorDataQoS());
+
+// Biswash changes 
+  // pub_ = this->create_publisher<sensor_msgs::msg::LaserScan>("scan", rclcpp::SensorDataQoS());
+  pub_ = this->create_publisher<sensor_msgs::msg::LaserScan>("laser_scan", rclcpp::SensorDataQoS().reliability(RMW_QOS_POLICY_RELIABILITY_RELIABLE));
 
   using std::placeholders::_1;
   // if pointcloud target frame specified, we need to filter by transform availability
@@ -120,7 +137,8 @@ void PointCloudToLaserScanNode::subscriptionListenerThreadLoop()
           "Got a subscriber to laserscan, starting pointcloud subscriber");
         rclcpp::SensorDataQoS qos;
         qos.keep_last(input_queue_size_);
-        sub_.subscribe(this, "cloud_in", qos.get_rmw_qos_profile());
+        // sub_.subscribe(this, "cloud_in", qos.get_rmw_qos_profile());
+        sub_.subscribe(this, "cloud_registered", qos.get_rmw_qos_profile());
       }
     } else if (sub_.getSubscriber()) {
       RCLCPP_INFO(

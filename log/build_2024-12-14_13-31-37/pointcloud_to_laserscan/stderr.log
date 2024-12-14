@@ -1,0 +1,7 @@
+[01m[K/home/biswash/pointcloud_to_laserscan/src/pointcloud_to_laserscan_node.cpp:[m[K In constructor ‘[01m[Kpointcloud_to_laserscan::PointCloudToLaserScanNode::PointCloudToLaserScanNode(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/biswash/pointcloud_to_laserscan/src/pointcloud_to_laserscan_node.cpp:81:54:[m[K [01;31m[Kerror: [m[K‘[01m[KRELIABLE[m[K’ is not a member of ‘[01m[Krclcpp::ReliabilityPolicy[m[K’
+   81 |   qos_profile.reliability(rclcpp::ReliabilityPolicy::[01;31m[KRELIABLE[m[K);
+      |                                                      [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/pointcloud_to_laserscan.dir/build.make:76: CMakeFiles/pointcloud_to_laserscan.dir/src/pointcloud_to_laserscan_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:197: CMakeFiles/pointcloud_to_laserscan.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

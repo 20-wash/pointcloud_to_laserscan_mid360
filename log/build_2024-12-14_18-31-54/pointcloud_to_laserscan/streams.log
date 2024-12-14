@@ -1,0 +1,51 @@
+[0.027s] Invoking command in '/home/biswash/pointcloud_to_laserscan/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/biswash/workspace/tutorial_gpt/install/task_1_hello_ros_py:/opt/ros/humble /usr/bin/cmake --build /home/biswash/pointcloud_to_laserscan/build/pointcloud_to_laserscan -- -j12 -l12
+[0.210s] [ 20%] Built target pointcloud_to_laserscan_node
+[0.210s] [ 40%] Built target laserscan_to_pointcloud_node
+[0.215s] [ 60%] Built target laserscan_to_pointcloud
+[0.247s] [35m[1mConsolidate compiler generated dependencies of target pointcloud_to_laserscan[0m
+[0.289s] [ 70%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan.dir/src/pointcloud_to_laserscan_node.cpp.o[0m
+[13.324s] [ 80%] [32m[1mLinking CXX shared library libpointcloud_to_laserscan.so[0m
+[14.392s] [ 80%] Built target pointcloud_to_laserscan
+[14.468s] [ 90%] [32m[1mLinking CXX executable dummy_pointcloud_publisher[0m
+[14.837s] [100%] Built target dummy_pointcloud_publisher
+[14.857s] Invoked command in '/home/biswash/pointcloud_to_laserscan/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/biswash/workspace/tutorial_gpt/install/task_1_hello_ros_py:/opt/ros/humble /usr/bin/cmake --build /home/biswash/pointcloud_to_laserscan/build/pointcloud_to_laserscan -- -j12 -l12
+[14.872s] Invoking command in '/home/biswash/pointcloud_to_laserscan/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/biswash/workspace/tutorial_gpt/install/task_1_hello_ros_py:/opt/ros/humble /usr/bin/cmake --install /home/biswash/pointcloud_to_laserscan/build/pointcloud_to_laserscan
+[14.882s] -- Install configuration: ""
+[14.883s] -- Up-to-date: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/laserscan_to_pointcloud_node
+[14.884s] -- Up-to-date: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/pointcloud_to_laserscan_node
+[14.885s] -- Up-to-date: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/include
+[14.885s] -- Up-to-date: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan
+[14.885s] -- Up-to-date: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/pointcloud_to_laserscan_node.hpp
+[14.885s] -- Up-to-date: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/visibility_control.h
+[14.885s] -- Up-to-date: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/laserscan_to_pointcloud_node.hpp
+[14.885s] -- Up-to-date: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/library_path.sh
+[14.885s] -- Up-to-date: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/library_path.dsv
+[14.886s] -- Up-to-date: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/lib/liblaserscan_to_pointcloud.so
+[14.886s] -- Installing: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/lib/libpointcloud_to_laserscan.so
+[14.900s] -- Set runtime path of "/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/lib/libpointcloud_to_laserscan.so" to ""
+[14.901s] -- Installing: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/dummy_pointcloud_publisher
+[14.903s] -- Set runtime path of "/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/dummy_pointcloud_publisher" to ""
+[14.903s] -- Up-to-date: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch
+[14.903s] -- Up-to-date: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/test_qos.py
+[14.903s] -- Installing: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_pointcloud_to_laserscan_launch.py
+[14.903s] -- Up-to-date: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_laserscan_to_pointcloud_launch.py
+[14.904s] -- Up-to-date: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/ament_index/resource_index/package_run_dependencies/pointcloud_to_laserscan
+[14.904s] -- Up-to-date: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/ament_index/resource_index/parent_prefix_path/pointcloud_to_laserscan
+[14.905s] -- Up-to-date: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.sh
+[14.905s] -- Up-to-date: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.dsv
+[14.905s] -- Up-to-date: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.sh
+[14.905s] -- Up-to-date: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.dsv
+[14.906s] -- Up-to-date: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.bash
+[14.906s] -- Up-to-date: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.sh
+[14.906s] -- Up-to-date: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.zsh
+[14.906s] -- Up-to-date: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.dsv
+[14.906s] -- Installing: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv
+[14.907s] -- Up-to-date: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/ament_index/resource_index/packages/pointcloud_to_laserscan
+[14.907s] -- Up-to-date: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/ament_index/resource_index/rclcpp_components/pointcloud_to_laserscan
+[14.907s] -- Up-to-date: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.907s] -- Up-to-date: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.907s] -- Up-to-date: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_libraries-extras.cmake
+[14.908s] -- Up-to-date: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig.cmake
+[14.908s] -- Up-to-date: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig-version.cmake
+[14.908s] -- Up-to-date: /home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.xml
+[14.911s] Invoked command in '/home/biswash/pointcloud_to_laserscan/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/biswash/workspace/tutorial_gpt/install/task_1_hello_ros_py:/opt/ros/humble /usr/bin/cmake --install /home/biswash/pointcloud_to_laserscan/build/pointcloud_to_laserscan

@@ -1,0 +1,13 @@
+[0.025s] Invoking command in '/home/biswash/pointcloud_to_laserscan/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/biswash/workspace/tutorial_gpt/install/task_1_hello_ros_py:/opt/ros/humble /usr/bin/cmake --build /home/biswash/pointcloud_to_laserscan/build/pointcloud_to_laserscan -- -j12 -l12
+[0.173s] [ 20%] Built target pointcloud_to_laserscan_node
+[0.174s] [ 40%] Built target laserscan_to_pointcloud
+[0.187s] [ 60%] Built target laserscan_to_pointcloud_node
+[0.252s] [ 70%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan.dir/src/pointcloud_to_laserscan_node.cpp.o[0m
+[5.189s] [01m[K/home/biswash/pointcloud_to_laserscan/src/pointcloud_to_laserscan_node.cpp:[m[K In constructor ‘[01m[Kpointcloud_to_laserscan::PointCloudToLaserScanNode::PointCloudToLaserScanNode(const rclcpp::NodeOptions&)[m[K’:
+[5.189s] [01m[K/home/biswash/pointcloud_to_laserscan/src/pointcloud_to_laserscan_node.cpp:81:54:[m[K [01;31m[Kerror: [m[K‘[01m[KRELIABLE[m[K’ is not a member of ‘[01m[Krclcpp::ReliabilityPolicy[m[K’
+[5.189s]    81 |   qos_profile.reliability(rclcpp::ReliabilityPolicy::[01;31m[KRELIABLE[m[K);
+[5.189s]       |                                                      [01;31m[K^~~~~~~~[m[K
+[9.320s] gmake[2]: *** [CMakeFiles/pointcloud_to_laserscan.dir/build.make:76: CMakeFiles/pointcloud_to_laserscan.dir/src/pointcloud_to_laserscan_node.cpp.o] Error 1
+[9.321s] gmake[1]: *** [CMakeFiles/Makefile2:197: CMakeFiles/pointcloud_to_laserscan.dir/all] Error 2
+[9.322s] gmake: *** [Makefile:146: all] Error 2
+[9.328s] Invoked command in '/home/biswash/pointcloud_to_laserscan/build/pointcloud_to_laserscan' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/biswash/workspace/tutorial_gpt/install/task_1_hello_ros_py:/opt/ros/humble /usr/bin/cmake --build /home/biswash/pointcloud_to_laserscan/build/pointcloud_to_laserscan -- -j12 -l12

@@ -1,0 +1,114 @@
+[0.296s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.296s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f497fa4a860>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f497fb2f7c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f497fb2f7c0>>, mixin_verb=('build',))
+[0.629s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.629s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.629s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.629s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.629s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.629s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.629s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/biswash/pointcloud_to_laserscan'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.652s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'pointcloud_to_laserscan'
+[0.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.720s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.720s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.724s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/biswash/pointcloud_to_laserscan/install
+[0.726s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/biswash/workspace/tutorial_gpt/install
+[0.727s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/biswash/ws_livox/install
+[0.731s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 412 installed packages in /opt/ros/humble
+[0.734s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.845s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_args' from command line to 'None'
+[0.846s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_target' from command line to 'None'
+[0.846s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.846s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_clean_cache' from command line to 'False'
+[0.846s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_clean_first' from command line to 'False'
+[0.846s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_force_configure' from command line to 'False'
+[0.846s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'ament_cmake_args' from command line to 'None'
+[0.846s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'catkin_cmake_args' from command line to 'None'
+[0.846s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.846s] DEBUG:colcon.colcon_core.verb:Building package 'pointcloud_to_laserscan' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/biswash/pointcloud_to_laserscan/build/pointcloud_to_laserscan', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan', 'merge_install': False, 'path': '/home/biswash/pointcloud_to_laserscan', 'symlink_install': False, 'test_result_base': None}
+[0.846s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.848s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.848s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/biswash/pointcloud_to_laserscan' with build type 'ament_cmake'
+[0.849s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/biswash/pointcloud_to_laserscan'
+[0.853s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.854s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.854s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.875s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/biswash/pointcloud_to_laserscan/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/biswash/workspace/tutorial_gpt/install/task_1_hello_ros_py:/opt/ros/humble /usr/bin/cmake --build /home/biswash/pointcloud_to_laserscan/build/pointcloud_to_laserscan -- -j12 -l12
+[1.271s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/biswash/pointcloud_to_laserscan/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/biswash/workspace/tutorial_gpt/install/task_1_hello_ros_py:/opt/ros/humble /usr/bin/cmake --build /home/biswash/pointcloud_to_laserscan/build/pointcloud_to_laserscan -- -j12 -l12
+[1.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/biswash/pointcloud_to_laserscan/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/biswash/workspace/tutorial_gpt/install/task_1_hello_ros_py:/opt/ros/humble /usr/bin/cmake --install /home/biswash/pointcloud_to_laserscan/build/pointcloud_to_laserscan
+[1.324s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pointcloud_to_laserscan)
+[1.325s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/biswash/pointcloud_to_laserscan/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/biswash/workspace/tutorial_gpt/install/task_1_hello_ros_py:/opt/ros/humble /usr/bin/cmake --install /home/biswash/pointcloud_to_laserscan/build/pointcloud_to_laserscan
+[1.330s] Level 1:colcon.colcon_core.environment:checking '/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan' for CMake module files
+[1.331s] Level 1:colcon.colcon_core.environment:checking '/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan' for CMake config files
+[1.331s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'cmake_prefix_path')
+[1.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.ps1'
+[1.333s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.dsv'
+[1.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.sh'
+[1.335s] Level 1:colcon.colcon_core.environment:checking '/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/lib'
+[1.335s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'ld_library_path_lib')
+[1.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.ps1'
+[1.336s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.dsv'
+[1.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.sh'
+[1.338s] Level 1:colcon.colcon_core.environment:checking '/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/bin'
+[1.338s] Level 1:colcon.colcon_core.environment:checking '/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/lib/pkgconfig/pointcloud_to_laserscan.pc'
+[1.338s] Level 1:colcon.colcon_core.environment:checking '/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/lib/python3.10/site-packages'
+[1.338s] Level 1:colcon.colcon_core.environment:checking '/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/bin'
+[1.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.ps1'
+[1.340s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv'
+[1.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.sh'
+[1.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.bash'
+[1.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.zsh'
+[1.345s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/colcon-core/packages/pointcloud_to_laserscan)
+[1.346s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pointcloud_to_laserscan)
+[1.346s] Level 1:colcon.colcon_core.environment:checking '/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan' for CMake module files
+[1.347s] Level 1:colcon.colcon_core.environment:checking '/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan' for CMake config files
+[1.347s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'cmake_prefix_path')
+[1.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.ps1'
+[1.348s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.dsv'
+[1.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.sh'
+[1.350s] Level 1:colcon.colcon_core.environment:checking '/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/lib'
+[1.350s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'ld_library_path_lib')
+[1.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.ps1'
+[1.351s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.dsv'
+[1.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.sh'
+[1.352s] Level 1:colcon.colcon_core.environment:checking '/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/bin'
+[1.353s] Level 1:colcon.colcon_core.environment:checking '/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/lib/pkgconfig/pointcloud_to_laserscan.pc'
+[1.353s] Level 1:colcon.colcon_core.environment:checking '/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/lib/python3.10/site-packages'
+[1.353s] Level 1:colcon.colcon_core.environment:checking '/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/bin'
+[1.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.ps1'
+[1.355s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv'
+[1.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.sh'
+[1.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.bash'
+[1.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.zsh'
+[1.357s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/biswash/pointcloud_to_laserscan/install/pointcloud_to_laserscan/share/colcon-core/packages/pointcloud_to_laserscan)
+[1.358s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.358s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.358s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.358s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.379s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.379s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.380s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.413s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.414s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/biswash/pointcloud_to_laserscan/install/local_setup.ps1'
+[1.415s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/biswash/pointcloud_to_laserscan/install/_local_setup_util_ps1.py'
+[1.418s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/biswash/pointcloud_to_laserscan/install/setup.ps1'
+[1.420s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/biswash/pointcloud_to_laserscan/install/local_setup.sh'
+[1.421s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/biswash/pointcloud_to_laserscan/install/_local_setup_util_sh.py'
+[1.422s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/biswash/pointcloud_to_laserscan/install/setup.sh'
+[1.423s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/biswash/pointcloud_to_laserscan/install/local_setup.bash'
+[1.424s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/biswash/pointcloud_to_laserscan/install/setup.bash'
+[1.426s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/biswash/pointcloud_to_laserscan/install/local_setup.zsh'
+[1.427s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/biswash/pointcloud_to_laserscan/install/setup.zsh'
